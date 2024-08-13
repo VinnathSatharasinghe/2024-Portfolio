@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="w-full bg-transparent text-gray-200 shadow-lg p-4">
             <div className="text-center text-sm">
-                &copy; Arunalu Bamunusinghe {currentYear} Inc. All rights reserved
+                &copy; Vinnath Satharsinghe {currentYear} Inc. All rights reserved
             </div>
         </div>
     );

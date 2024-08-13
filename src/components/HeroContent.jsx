@@ -15,7 +15,7 @@ import { saveAs } from "file-saver";
 
 const HeroContent = () => {
     const handleDownload = () => {
-        saveAs("/Arunalu Bamunusinghe.pdf", "Arunalu Bamunusinghe.pdf");
+        saveAs("/public/cv/Vinnath Satharasinghe Full Stack Web Developer (2024).pdf", "Vinnath Satharasinghe.pdf");
     };
 
     return (
@@ -32,7 +32,7 @@ const HeroContent = () => {
                     <div className="flex items-center">
                         <SparklesIcon className="text-[#b49bff] mr-2 h-5 w-5" />
                         <h1 className="Welcome-text text-sm">
-                            Arunalu Bamunusinghe Portfolio
+                            Vinnath Satharasinghe's Portfolio
                         </h1>
                     </div>
                 </motion.div>
@@ -50,18 +50,15 @@ const HeroContent = () => {
                     <div className="text-3xl md:text-5xl">
                         <TypeAnimation
                             sequence={[
-                                "Arunalu Bamunusinghe",
+                                "Vinnath Satharsinghe",
                                 1500,
-                                "Teaching",
-                                1000,
                                 "Full Stack Developer",
                                 1000,
                                 "Frontend Developer",
                                 1000,
                                 "Backend Developer",
                                 1000,
-                                "Mobile App Developer",
-                                1000,
+                            
                             ]}
                             wrapper="span"
                             speed={50}
@@ -74,8 +71,8 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className="text-base md:text-lg text-gray-400 my-5 max-w-full md:max-w-[600px]"
                 >
-                    I&apos;m a Full Stack Software Engineer with experience in Website,
-                    Mobile, and Software development. Check out my projects and skills.
+                    I&apos;m a Full Stack Software Engineer with experience in Website
+                     Development. Check out my projects and skills.
                 </motion.p>
 
                 <motion.button
