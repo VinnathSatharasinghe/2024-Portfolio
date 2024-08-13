@@ -1,0 +1,118 @@
+.bg-black-100 {
+    background-color: #1a1a1a;
+  }
+  
+  .bg-black-200 {
+    background-color: #2a2a2a;
+  }
+  
+  .bg-tertiary {
+    background-color: #333;
+  }
+  
+  .text-secondary {
+    color: #aaa;
+  }
+  
+  .blue-text-gradient {
+    background: -webkit-linear-gradient(blue, lightblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .mt-1 {
+    margin-top: 0.25rem;
+  }
+  
+  .mt-7 {
+    margin-top: 1.75rem;
+  }
+  
+  .mt-12 {
+    margin-top: 3rem;
+  }
+  
+  .pb-14 {
+    padding-bottom: 3.5rem;
+  }
+  
+  .p-10 {
+    padding: 2.5rem;
+  }
+  
+  .rounded-3xl {
+    border-radius: 1.5rem;
+  }
+  
+  .rounded-20px {
+    border-radius: 20px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .gap-1 {
+    gap: 0.25rem;
+  }
+  
+  .gap-7 {
+    gap: 1.75rem;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .font-black {
+    font-weight: 900;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .text-12px {
+    font-size: 12px;
+  }
+  
+  .text-16px {
+    font-size: 16px;
+  }
+  
+  .text-18px {
+    font-size: 18px;
+  }
+  
+  .text-48px-fix {
+      font-size: 48px;
+    }
+  
+  .tracking-wider {
+    letter-spacing: 0.05em;
+  }
+  
