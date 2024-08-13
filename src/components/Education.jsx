@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import React from "react";
 import {
   VerticalTimeline,
@@ -10,11 +8,11 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../../styles";
-import { experiences } from "../constants";
+import { education } from "../constants";
 import SectionWrapper from "../components/hoc/SectionWrapper";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard = ({ experience }) => {
+const EducationCard = ({ education }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -22,33 +20,33 @@ const ExperienceCard = ({ experience }) => {
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={experience.date}
-      iconStyle={{ background: experience.iconBg }} // Adjusted icon size
+      date={education.date}
+      iconStyle={{ background: education.iconBg }} // Adjusted icon size
       icon={
-        <div className='flex justify-center items-center w-full h-full'>
+        <div className="flex justify-center items-center w-full h-full">
           <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-[80%] h-[80%] object-contain' // Adjusted logo size
+            src={education.icon}
+            alt={education.company_name}
+            className="w-[80%] h-[80%] object-contain" // Adjusted logo size
           />
         </div>
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className="text-white text-[24px] font-bold">{education.title}</h3>
         <p
-          className='text-secondary text-[16px] font-semibold'
+          className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {experience.company_name}
+          {education.company_name}
         </p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
+      <ul className="mt-5 list-disc ml-5 space-y-2">
+        {education.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className="text-white-100 text-[14px] pl-1 tracking-wider"
           >
             {point}
           </li>
@@ -58,33 +56,30 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Experience = () => {
+const Education = () => {
   return (
-
-    <section id="experience" >
+    <section id="education">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+         Education Experience
         </h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className="mt-20 flex flex-col">
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
+          {education.map((educationn, index) => (
+            <EducationCard
               key={`experience-${index}`}
-              experience={experience}
+              education={educationn}
             />
           ))}
         </VerticalTimeline>
       </div>
-
     </section>
-
   );
 };
 
-export default SectionWrapper(Experience, "");
+export default SectionWrapper(Education, "");

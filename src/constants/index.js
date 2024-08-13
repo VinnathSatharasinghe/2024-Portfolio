@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-vars */
-
-
 export const Skill_data = [
     {
         skill_name: "Html 5",
@@ -21,12 +18,6 @@ export const Skill_data = [
         height: 65,
     },
     {
-        skill_name: "Bash",
-        Image: "/bash.png",
-        width: 80,
-        height: 80,
-    },
-    {
         skill_name: "React",
         Image: "/react.png",
         width: 80,
@@ -37,30 +28,6 @@ export const Skill_data = [
         Image: "/ts.png",
         width: 70,
         height: 70,
-    },
-    {
-        skill_name: "Kotlin",
-        Image: "/kotlin.png",
-        width: 70,
-        height: 70,
-    },
-    {
-        skill_name: "c++",
-        Image: "/cpp.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Java",
-        Image: "/java.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "C",
-        Image: "/c.png",
-        width: 65,
-        height: 65,
     },
     {
         skill_name: "PHP",
@@ -86,23 +53,23 @@ export const Socials = [
     {
         name: "GitHub",
         src: "/gitwhite.png",
-        link: "https://github.com/ArunaluB",
+        link: "https://github.com/VinnathSatharasinghe",
     },
     {
         name: "Instagram",
         src: "/instagram.svg",
-        link: "",
+        link: "https://www.instagram.com/winny_satharasinghe/",
     },
     {
         name: "Linkedin",
         src: "/linkedin.png",
-        link: "https://www.linkedin.com/in/arunalu-bamunusinghe/",
+        link: "https://www.linkedin.com/in/vinnath-satharasinghe/",
     },
-    {
-        name: "Youtube",
-        src: "/youtube.png",
-        link: "https://www.youtube.com/@nanayakkarabamunusinghe",
-    },
+    // {
+    //     name: "Youtube",
+    //     src: "/youtube.png",
+    //     link: "https://www.youtube.com/@nanayakkarabamunusinghe",
+    // },
 ];
 
 export const Library_skill = [
@@ -125,20 +92,8 @@ export const Library_skill = [
         height: 80,
     },
     {
-        skill_name: "Ant Design",
-        Image: "/antd.png",
-        width: 80,
-        height: 80,
-    },
-    {
         skill_name: "Chart js",
         Image: "/chartjs.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "material design android",
-        Image: "/muiandroid.png",
         width: 80,
         height: 80,
     },
@@ -148,7 +103,6 @@ export const Library_skill = [
         width: 80,
         height: 80,
     },
-
     {
         skill_name: "Moment js",
         Image: "/momentjs.png",
@@ -164,12 +118,7 @@ export const Library_skill = [
 ];
 
 export const Backend_skill = [
-    {
-        skill_name: "Fire base",
-        Image: "/Firebase.png",
-        width: 55,
-        height: 55,
-    },
+
     {
         skill_name: "Mongo db",
         Image: "/mongodb.png",
@@ -177,22 +126,10 @@ export const Backend_skill = [
         height: 40,
     },
     {
-        skill_name: "SQL Lite",
-        Image: "/sqlite.png",
-        width: 70,
-        height: 70,
-    },
-    {
         skill_name: "My SQL",
         Image: "/mysql.png",
         width: 70,
         height: 70,
-    },
-    {
-        skill_name: "Microsoft SQL Server",
-        Image: "/msqlserver.png",
-        width: 80,
-        height: 80,
     },
     {
         skill_name: "Postman",
@@ -215,18 +152,7 @@ export const Backend_skill = [
 ];
 
 export const Full_stack = [
-    {
-        skill_name: "Davinchi Resolve",
-        Image: "/DaVinci_Resolve.png",
-        width: 70,
-        height: 70,
-    },
-    {
-        skill_name: "Android Studio",
-        Image: "/androidstudio.png",
-        width: 70,
-        height: 70,
-    },
+
     {
         skill_name: "PhotoShop",
         Image: "/photoshop.png",
@@ -253,32 +179,61 @@ export const Other_skill = [
 
 export const experiences = [
     {
-        title: "Associate Software Engineer",
-        company_name: "CodeHub Pvt Ltd",
+        title: "Trainee WordPress Developer ",
+        company_name: "VVH Solutions",
         icon: "/codehub.png",
         iconBg: "#383E56",
-        date: "Feb 2024 - Present",
+        date: "May 2024 - Jul 2024",
         points: [
-            "Expertise in DevOps development technologies javascript FrameWork MERN,Nextjs,Angular including and Java Spring Boot.",
-            "Working closely with designers, product managers, and other developers to deliver high-quality products.",
-            "Ensuring that web applications are responsive and compatible across different browsers.",
-            "Participating in code reviews and providing constructive feedback to enhance code quality.",
-            " Providing training and mentorship to interns, helping them to develop their skills and knowledge in web development.",
+            "Assisted in developing and customizing WordPress websites by utilizing themes and plugins to meet specific client requirements.",
+            "Gained hands-on experience in installing, configuring, and managing WordPress themes and plugins, ensuring they are up-to-date and compatible with the website.",
+            "Implemented responsive design techniques to ensure websites were optimized for various devices, enhancing user experience across desktops, tablets, and mobile devices.",
+            "Worked closely with clients to understand their needs and provided support in maintaining and updating their WordPress websites.",
         ],
     },
     {
-        title: "Trainee Enginner - Fullstack",
-        company_name: "Institute of Computer Engineering Technology (iCET)",
+        title: "Intern Web Developer - Frontend",
+        company_name: "Unique Software Solutions",
         icon: "/icet.png",
         iconBg: "#E6DEDD",
-        date: "Feb 2024 - May 2024",
+        date: "Jan 2024 - Mar 2024",
         points: [
-            "Developing and maintaining web applications using javascript and other related technologies.",
-            "Collaborating with cross-functional teams, including designers, product managers, and other developers, to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-            "Working on e-commerce platforms and integrating various functionalities as needed.",
-            "Utilizing modern JavaScript frameworks such as NestJS, Angular and Next.js to enhance application performance and scalability.",
+            " Assisted in building and maintaining the front-end of web applications using HTML, CSS, and JavaScript, ensuring responsive and user-friendly interfaces.",
+            "Utilized CSS frameworks like Bootstrap or Tailwind to streamline the development process and ensure responsive layouts across different devices.",
+            " Developed interactive features and dynamic elements using JavaScript and jQuery, enhancing the overall user experience on the website.",
+            "Developed and maintained reusable React components, ensuring modularity and consistency across the web application.",
+            "Gained experience using version control systems like Git to manage code changes, collaborate with team members, and maintain code integrity.",
+        ],
+    },
+
+];
+
+export const education = [
+    {
+        title: "Trainee WordPress Developer ",
+        company_name: "VVH Solutions",
+        icon: "/codehub.png",
+        iconBg: "#383E56",
+        date: "May 2024 - Jul 2024",
+        points: [
+            "Assisted in developing and customizing WordPress websites by utilizing themes and plugins to meet specific client requirements.",
+            "Gained hands-on experience in installing, configuring, and managing WordPress themes and plugins, ensuring they are up-to-date and compatible with the website.",
+            "Implemented responsive design techniques to ensure websites were optimized for various devices, enhancing user experience across desktops, tablets, and mobile devices.",
+            "Worked closely with clients to understand their needs and provided support in maintaining and updating their WordPress websites.",
+        ],
+    },
+    {
+        title: "Intern Web Developer - Frontend",
+        company_name: "Unique Software Solutions",
+        icon: "/icet.png",
+        iconBg: "#E6DEDD",
+        date: "Jan 2024 - Mar 2024",
+        points: [
+            " Assisted in building and maintaining the front-end of web applications using HTML, CSS, and JavaScript, ensuring responsive and user-friendly interfaces.",
+            "Utilized CSS frameworks like Bootstrap or Tailwind to streamline the development process and ensure responsive layouts across different devices.",
+            " Developed interactive features and dynamic elements using JavaScript and jQuery, enhancing the overall user experience on the website.",
+            "Developed and maintained reusable React components, ensuring modularity and consistency across the web application.",
+            "Gained experience using version control systems like Git to manage code changes, collaborate with team members, and maintain code integrity.",
         ],
     },
 
@@ -287,26 +242,26 @@ export const experiences = [
 export const testimonials = [
     {
         testimonial:
-            "I had the privilege of working with this outstanding individual on both academic and project fronts. He is an efficient, hardworking, and results-oriented team player. His dedication to his work, coupled with his exceptional attitude and qualities, consistently exceeds expectations. I highly recommend him for any critical projects.",
-        name: "Frank Cronemberg",
-        designation: "Technical Lead / Engineering Manager",
-        company: "Sysco Labs",
+            "Demonstrated exceptional learning agility and a strong work ethic, quickly mastering WordPress development. Consistently delivered quality work, showing great potential for growth in web development.",
+        name: "Mr.Vishan Vindula",
+        designation: "Technical Lead",
+        company: "VVH Solutions",
         image: "/Frank.png",
     },
     {
         testimonial:
-            "Arunalu is highly dedicated and eager to learn, quickly mastering complex topics and contributing significantly to team success. He consistently delivers high-quality work, demonstrates excellent communication skills, and maintains a positive attitude. Arunalu is also open to advice and collaboration, making him a valuable team member..",
-        name: "Dulanga Wimalagunasekara",
-        designation: "Software Engineer II ",
-        company: "Arimac",
+            "Vinnath is highly dedicated and eager to learn, quickly mastering complex topics and contributing significantly to team success. He consistently delivers high-quality work, demonstrates excellent communication skills, and maintains a positive attitude. Arunalu is also open to advice and collaboration, making him a valuable member..",
+        name: "Gayan Perera",
+        designation: "Founder",
+        company: "Unique Software Solutions",
         image: "/dulanga.png",
     },
     {
         testimonial:
-            "I'm delighted to recommend Arunalu for his dedication and passion in software engineering. Throughout his studies, he has demonstrated a strong commitment to learning and excelling in the field. His dedication to mastering software engineering concepts and his enthusiasm for problem-solving make him a valuable asset to any team. I am confident that Arunalu will continue to thrive and contribute positively to any organization he joins",
-        name: "Hasindu Eshan",
+            "I'm delighted to recommend Vinnath for his dedication and passion in software engineering. Throughout his studies, he has demonstrated a strong commitment to learning and excelling in the field. His dedication to mastering software engineering concepts and his enthusiasm for problem-solving make him a valuable asset to any team. I am confident that Arunalu will continue to thrive and contribute positively to any organization he joins",
+        name: "Mrs. Chamila Attanayaka",
         designation: "Lecturer",
-        company: "Institute of Computer Engineering Technology (iCET) ",
+        company: "International College of Business and Technology (ICBT) ",
         image: "/hasindu.png",
     },
 ];
@@ -412,3 +367,73 @@ export const projects = [
         source_code_link: "https://github.com/ArunaluB/PosSystem-Application.git/",
     },
 ];
+
+export const certificates = [
+
+    {
+        name: "Hospital Management System",
+        description:
+            "",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Sprinboot",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "/public/codehub.PNG",
+        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+    },
+    {
+        name: "Hospital Management System",
+        description:
+            "",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Sprinboot",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "/public/codehub.PNG",
+        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+    },
+    {
+        name: "Hospital Management System",
+        description:
+            "",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Sprinboot",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "/public/codehub.PNG",
+        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+    },
+
+];
+
+
