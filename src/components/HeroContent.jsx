@@ -89,9 +89,17 @@ const HeroContent = () => {
                 className="w-full h-full flex justify-center items-center mt-6 md:mt-0"
             >
                 <img
+                    src="/public/me/dwdddwdwad.png"
+                    alt="me"
+                    className=" max-w-full h-auto rounded-[20px] mt-[50px] neon-border"
+
+        
+                />
+         
+                <img
                     src="/mainIconsdark.svg"
                     alt="work icons"
-                    className="max-w-full h-auto"
+                    className="absolute max-w-[430px] h-auto mr-[150px] mt-[100px]"
                 />
             </motion.div>
         </motion.div>

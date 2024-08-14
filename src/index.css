@@ -17,6 +17,39 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+@keyframes neon {
+  0% {
+    border-color: #ff00ff;
+    box-shadow: 0 0 3px #ff00ff, 0 0 6px #ff00ff, 0 0 9px #ff00ff, 0 0 12px #ff00ff, 0 0 15px #ff00ff, 0 0 18px #ff00ff, 0 0 21px #ff00ff;
+  }
+  25% {
+    border-color: #00ffff;
+    box-shadow: 0 0 6px #00ffff, 0 0 9px #00ffff, 0 0 12px #00ffff, 0 0 15px #00ffff, 0 0 18px #00ffff, 0 0 21px #00ffff, 0 0 24px #00ffff;
+  }
+  50% {
+    border-color: #ff00ff;
+    box-shadow: 0 0 12px #ff00ff, 0 0 15px #ff00ff, 0 0 15px #ff00ff, 0 0 15px #ff00ff, 0 0 20px #ff00ff, 0 0 20px #ff00ff, 0 0 20px #ff00ff;
+  }
+  75% {
+    border-color: #ffff00;
+    box-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00, 0 0 15px #ffff00, 0 0 20px #ffff00, 0 0 25px #ffff00, 0 0 30px #ffff00, 0 0 35px #ffff00;
+  }
+  100% {
+    border-color: #ff00ff;
+    box-shadow: 0 0 9px #ff00ff, 0 0 12px #ff00ff, 0 0 15px #ff00ff, 0 0 15px #ff00ff, 0 0 20px #ff00ff, 0 0 20px #ff00ff, 0 0 20px #ff00ff;
+  }
+
+}
+
+.neon-border {
+  border: 1px solid;
+  /* padding: 5px; */
+  animation: neon 9s linear infinite;
+  border-radius: 20px;
+}
+
+
 .Welcome-text {
     background: linear-gradient(
             0deg,

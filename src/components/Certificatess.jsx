@@ -67,7 +67,7 @@ const CertificateCard = ({
 
 const Certificate = () => {
     return (
-        <section id="certificate" >
+        <section id="certificates" >
             <motion.div variants={textVariant()}>
                 <p className={`${styles.sectionSubText}`}>My Certificate</p>
                 <h2 className={`${styles.sectionHeadText}`}>Certificate.</h2>
