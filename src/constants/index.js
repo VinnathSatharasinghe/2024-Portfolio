@@ -388,7 +388,49 @@ export const certificates = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/codehub.PNG",
+        image: "/public/certificates/'pko.png",
+        source_code_link: "/public/certificates/'pko.png",
+    },
+    {
+        name: "Hospital Management System",
+        description:
+            "",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Sprinboot",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "/public/certificates/1qq.png",
+        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+    },
+   {
+        name: "Hospital Management System",
+        description:
+            "",
+        tags: [
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Sprinboot",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "/public/certificates/wdwdwd.png",
         source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
     },
     {
@@ -409,10 +451,9 @@ export const certificates = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/codehub.PNG",
+        image: "/public/certificates/wad.png",
         source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
-    },
-    {
+    },    {
         name: "Hospital Management System",
         description:
             "",
@@ -430,7 +471,7 @@ export const certificates = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/codehub.PNG",
+        image: "/public/certificates/WEB BEGI.png",
         source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
     },
 

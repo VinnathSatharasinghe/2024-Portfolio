@@ -2,7 +2,7 @@ body {
     margin: 0;
     height: 100vh;
     background: #000;
-    cursor: none; 
+    /* cursor: none;  */
 }
 
 .neon-cursor {

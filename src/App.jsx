@@ -20,10 +20,9 @@ function App() {
     <>
       <div>
         <StarsCanvas />
-        <Cursor />
       </div>
       <div>
-
+        <Cursor />
         <Navbar />
         <Hero />
         <Skills />

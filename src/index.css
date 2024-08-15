@@ -36,7 +36,7 @@
     #ff0000, #ff7f00, #ffff00, #ff00ff, #ff007f, #00ff7f,
     #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f);
   background-size: 180% 300%;
-  animation: rainbow 2s linear infinite;
+  animation: rainbow 5s linear infinite;
   pointer-events: none;
 }
 
