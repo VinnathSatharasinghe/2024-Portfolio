@@ -200,8 +200,14 @@ const Contact = () => {
           </form>
         </motion.div>
 
-        <div className="lg:w-1/3 w-full lg:h-auto md:h-[400px] h-[300px] rotateAnimation">
-          <Lottie options={defaultOptions} height={600} width={600}  />
+        <div
+          className="lg:w-1/3 w-full lg:h-auto md:h-[400px] h-[300px]"
+          style={{
+            animation: "rotateAnimation 20s linear infinite", // Adjust the duration and easing as needed
+            display: "inline-block",
+          }}
+        >
+          <Lottie options={defaultOptions} height={600} width={600} />
 
           {/* <Canvas
             camera={{
@@ -230,7 +236,6 @@ const Contact = () => {
                             />
                         </Suspense>
           </Canvas> */}
-
         </div>
       </div>
     </section>
