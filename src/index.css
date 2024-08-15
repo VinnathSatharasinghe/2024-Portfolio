@@ -17,7 +17,41 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes neon {
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.neon-border {
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 7px;
+  background: linear-gradient(390deg, 
+    #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f,
+    #ff0000, #ff7f00, #ffff00, #ff00ff, #ff007f, #00ff7f,
+    #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f);
+  background-size: 180% 300%;
+  animation: rainbow 2s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes rotateAnimation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
+
+/* @keyframes neon {
   0% {
     border-color: #ff00ff;
     box-shadow: 0 0 3px #ff00ff, 0 0 6px #ff00ff, 0 0 9px #ff00ff,
@@ -47,10 +81,10 @@
 
 .neon-border {
   border: 1px solid;
-  /* padding: 5px; */
+  padding: 5px;
   animation: neon 9s linear infinite;
   border-radius: 20px;
-}
+} */
 
 .Welcome-text {
   background: linear-gradient(

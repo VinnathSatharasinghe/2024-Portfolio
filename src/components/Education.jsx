@@ -61,7 +61,7 @@ const Education = () => {
     <section id="education">
       <motion.div variants={textVariant()}>
     
-        <h2 className={`${styles.sectionHeadText} text-center pt-[100px]`}>
+        <h2 className={`${styles.sectionHeadText} text-center pt-[120px]`}>
          Education Experience
         </h2>
         <br />
