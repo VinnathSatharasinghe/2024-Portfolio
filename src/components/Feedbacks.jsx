@@ -54,8 +54,9 @@ const Feedbacks = () => {
       <div className={`mt-12 bg-black-100 rounded-[20px]`}>
         <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
           <motion.div variants={textVariant()}>
-            <p className={styles.sectionSubText}>What others say</p>
-            <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+         
+            <h2 className={`${styles.sectionHeadText} pt-[60px]`}>Testimonials.</h2>
+            <p className={'${styles.sectionSubText}'}>What others say</p>
           </motion.div>
         </div>
         <div

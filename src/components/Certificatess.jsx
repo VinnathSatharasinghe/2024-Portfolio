@@ -69,7 +69,7 @@ const Certificate = () => {
     return (
         <section id="certificates" >
             <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText}`}>My Certificate</p>
+                <p className={`${styles.sectionSubText} pt-[120px]`}>My Certificate</p>
                 <h2 className={`${styles.sectionHeadText}`}>Certificate.</h2>
             </motion.div>
 

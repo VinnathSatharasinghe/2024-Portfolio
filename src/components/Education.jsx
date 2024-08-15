@@ -60,12 +60,14 @@ const Education = () => {
   return (
     <section id="education">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+    
+        <h2 className={`${styles.sectionHeadText} text-center pt-[100px]`}>
          Education Experience
         </h2>
+        <br />
+        <h3 className="text-center">
+          What I have done so far
+        </h3>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

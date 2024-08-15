@@ -9,8 +9,8 @@ const StarsCanvas = () => (
     <div
         style={{
             position: "fixed",
-            top: 0,
-            left: 0,
+            top: 110,
+            left: 110,
             width: "100%",
             height: "100%",
             zIndex: 0,
