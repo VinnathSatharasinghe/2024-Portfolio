@@ -1,12 +1,9 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React, { Suspense, useRef, useState } from "react";
-import { Canvas } from "@react-three/fiber";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
-// import { Fox } from "../modal/Fox";
-// import Loader from "./Loader";
 import useAlert from "../hooks/useAlert";
 import Alert from "./Alert";
 import SectionWrapper from "../components/hoc/SectionWrapper";
@@ -203,39 +200,11 @@ const Contact = () => {
         <div
           className="lg:w-1/3 w-full lg:h-auto md:h-[400px] h-[300px]"
           style={{
-            animation: "rotateAnimation 20s linear infinite", // Adjust the duration and easing as needed
+            animation: "rotateAnimation 20s linear infinite", 
             display: "inline-block",
           }}
         >
           <Lottie options={defaultOptions} height={600} width={600} />
-
-          {/* <Canvas
-            camera={{
-              position: [0, 0, 5],
-              fov: 75,
-              near: 0.1,
-              far: 1000,
-            }}
-          >
-            <directionalLight position={[0, 0, 1]} intensity={2.5} />
-            <ambientLight intensity={1} />
-            <pointLight position={[5, 10, 0]} intensity={2} />
-            <spotLight
-              position={[10, 10, 10]}
-              angle={0.15}
-              penumbra={1}
-              intensity={2}
-            /> 
-
-           <Suspense fallback={<Loader />}>
-                            <Fox
-                                currentAnimation={currentAnimation}
-                                position={[1, 0.35, 0]} // Adjusted x-coordinate to move Fox to the right
-                                rotation={[12.629, -0.6, 0]}
-                                scale={[0.4, 0.4, 0.4]}
-                            />
-                        </Suspense>
-          </Canvas> */}
         </div>
       </div>
     </section>

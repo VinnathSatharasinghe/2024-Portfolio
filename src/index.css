@@ -17,13 +17,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 @keyframes rainbow {
   0% {
-    background-position: 0% 50%;
+    background-position: 50% 150%;
+  }
+  50% {
+    background-position: 150% 50%;
   }
   100% {
-    background-position: 100% 0%;
+    background-position: 50% 150%;
   }
 }
 
@@ -31,14 +33,14 @@
   border: 2px solid transparent;
   border-radius: 20px;
   padding: 7px;
-  background: linear-gradient(390deg, 
-    #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f,
-    #ff0000, #ff7f00, #ffff00, #ff00ff, #ff007f, #00ff7f,
-    #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f);
-  background-size: 180% 300%;
-  animation: rainbow 5s linear infinite;
+  background: linear-gradient(100deg, 
+    #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #ee82ee,
+    #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #ee82ee);
+  background-size: 300% 300%;
+  animation: rainbow 9s linear infinite;
   pointer-events: none;
 }
+
 
 @keyframes rotateAnimation {
   0% {
