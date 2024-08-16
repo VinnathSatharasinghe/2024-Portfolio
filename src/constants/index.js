@@ -181,7 +181,7 @@ export const experiences = [
     {
         title: "Trainee WordPress Developer ",
         company_name: "VVH Solutions",
-        icon: "/codehub.png",
+        icon: "/public/other/wdadwad.jpg",
         iconBg: "#383E56",
         date: "May 2024 - Jul 2024",
         points: [
@@ -194,7 +194,7 @@ export const experiences = [
     {
         title: "Intern Web Developer - Frontend",
         company_name: "Unique Software Solutions",
-        icon: "/icet.png",
+        icon: "/public/other/qsQSWDAD.png",
         iconBg: "#E6DEDD",
         date: "Jan 2024 - Mar 2024",
         points: [
@@ -210,11 +210,11 @@ export const experiences = [
 
 export const education = [
     {
-        title: "Trainee WordPress Developer ",
-        company_name: "VVH Solutions",
-        icon: "/codehub.png",
+        title: "BSc (Hons) Software Engineering",
+        company_name: "Cardiff Metropolitan University",
+        icon: "/public/other/edfadawdawd.jpg",
         iconBg: "#383E56",
-        date: "May 2024 - Jul 2024",
+        date: "Jul  2022 - Jul 2023",
         points: [
             "Assisted in developing and customizing WordPress websites by utilizing themes and plugins to meet specific client requirements.",
             "Gained hands-on experience in installing, configuring, and managing WordPress themes and plugins, ensuring they are up-to-date and compatible with the website.",
@@ -223,11 +223,11 @@ export const education = [
         ],
     },
     {
-        title: "Intern Web Developer - Frontend",
-        company_name: "Unique Software Solutions",
-        icon: "/icet.png",
+        title: "HD in Software Engineering",
+        company_name: "International College of Business and Technology.",
+        icon: "/public/other/dawdawdaw.jpg",
         iconBg: "#E6DEDD",
-        date: "Jan 2024 - Mar 2024",
+        date: "Mar 2020 - Jul 2022",
         points: [
             " Assisted in building and maintaining the front-end of web applications using HTML, CSS, and JavaScript, ensuring responsive and user-friendly interfaces.",
             "Utilized CSS frameworks like Bootstrap or Tailwind to streamline the development process and ensure responsive layouts across different devices.",
@@ -268,9 +268,9 @@ export const testimonials = [
 
 export const projects = [
     {
-        name: "1",
+        name: "A Portfolio Built with React.js",
         description:
-            "Introducing Solution, your comprehensive web portal designed exclusively for healthcare professionals and billers. Our innovative platform is meticulously crafted to streamline and automate the claims process, ensuring that healthcare providers receive maximum payments from insurance companies.",
+            "Explore a showcase of my work, skills, and achievements as a web developer. This portfolio highlights my journey, projects, and experiences in web development, particularly focusing on my proficiency in React.js, HTML, and CSS",
         tags: [
             {
                 name: "reactjs",
@@ -289,9 +289,9 @@ export const projects = [
         source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
     },
     {
-        name: "2",
+        name: "Winny Book Store",
         description:
-            "Web application that provides weather information of any city in the world.",
+            "Explore Winny Book Store, an online haven for book enthusiasts. Our platform offers a vast collection of books, spanning multiple genres and interests. Built with React.js, HTML, SCSS, and CSS on the frontend, and powered by a robust backend API and MongoDB database, this website provides a seamless and interactive experience. ",
         tags: [
             {
                 name: "vanilla js",
@@ -312,22 +312,22 @@ export const projects = [
 
     },
     {
-        name: "3",
+        name: "My To-Do System",
         description:
-            " I used Kotlin to develop this fun where you can drive a car and avoid obstacles. Plus, I incorporated Shared Preferences for data storage, making the user experience seamless and personalized.",
+            "This web application features a user-friendly interface built with React.js, HTML, SCSS, and CSS, allowing you to add, edit, and manage tasks with ease. On the backend, a robust API and MongoDB database ensure that your tasks are stored securely and are easily accessible whenever you need them.",
         tags: [
             {
                 name: "Kotlin",
                 color: "blue-text-gradient",
             },
         ],
-        image: "/Capture.jpg",
+        image: "/public/project/dwdwdawdaw.png",
         source_code_link: "https://github.com/ArunaluB/Kotlin_Mobile_LabExam03.git/",
     },
     {
-        name: "E-commerce Website",
+        name: "Biz Software Solutions",
         description:
-            "This project is a full-stack e-commerce website that allows users to browse products, add them to the cart, and purchase them. It includes features such as product filtering, product search, and payment processing.",
+            "This website is crafted with clean and responsive design using only HTML, CSS, and JavaScript. It showcases a range of services, from software development to IT consulting, providing a clear and engaging user experience. Explore our offerings and discover how we can help elevate your business.",
         tags: [
             {
                 name: "HTML",
@@ -346,9 +346,9 @@ export const projects = [
         source_code_link: "https://github.com/ArunaluB/E-commerce-website.git/",
     },
     {
-        name: "POS system ",
+        name: "Laptop Price Prediction System",
         description:
-            "This project is a scalable Point of Sale (POS) system developed with Java, JavaFX, and Hibernate, integrated with a MySQL database. The user-friendly JavaFX interface ensures an intuitive experience, while Hibernate manages efficient database interactions.",
+            "This is a sophisticated web application designed to estimate the price of laptops based on various specifications. Built with HTML, CSS, and JavaScript, this tool provides an intuitive interface where users can input details like brand, processor, RAM, and storage to receive an estimated market price. Leveraging advanced algorithms, the system helps users make informed purchasing decisions.",
         tags: [
             {
                 name: "JavaFx",
@@ -363,7 +363,28 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/pos.jpg",
+        image: "/public/project/efeefeafef.png",
+        source_code_link: "https://github.com/ArunaluB/PosSystem-Application.git/",
+    },
+    {
+        name: "Café Winny",
+        description:
+            "Café Winny is a vibrant and inviting online presence for our cozy café, where coffee lovers and food enthusiasts can explore our menu, discover special offers, and even place orders. Built using HTML, CSS, and JavaScript, the website reflects the warm ambiance of our café and offers an easy-to-navigate interface for customers",
+        tags: [
+            {
+                name: "JavaFx",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Hibernate",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MySQL",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "/public/project/wadawdawdawd.png",
         source_code_link: "https://github.com/ArunaluB/PosSystem-Application.git/",
     },
 ];
