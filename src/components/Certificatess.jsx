@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
-import Tilt from "react-parallax-tilt"; // Adjusted import statement
+// import Tilt from "react-parallax-tilt"; 
 import { motion } from "framer-motion";
 
 import { styles } from "../../styles";
@@ -28,36 +28,22 @@ const CertificateCard = ({
   };
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <div
+        // options={{
+        //   max: 45,
+        //   scale: 1,
+        //   speed: 450,
+        // }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[510px] h-[400px] ml-[40px] w-full"
       >
-        <div onClick={handleImageClick} onMouseLeave={handleImageLeft} className="relative w-full h-[230px]">
+        <div onClick={handleImageClick} onMouseUp={handleImageLeft} className="relative w-full h-[230px]">
       
             <img
               src={image}
               alt="project_image"
               className="w-full h-full object-cover rounded-2xl"
             />
-
-
-          {/* <div className="relative flex justify-end m-3 card-img_hover">
-            <div
-              onClick={handleImageClick}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-          </div> */}
 
           {isModalOpen && (
             <div
@@ -83,8 +69,8 @@ const CertificateCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
-    </motion.div>
+      </div>
+    </div>
   );
 };
 

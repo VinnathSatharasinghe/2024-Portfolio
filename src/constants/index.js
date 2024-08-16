@@ -244,9 +244,9 @@ export const testimonials = [
         testimonial:
             "Demonstrated exceptional learning agility and a strong work ethic, quickly mastering WordPress development. Consistently delivered quality work, showing great potential for growth in web development.",
         name: "Mr.Vishan Vindula",
-        designation: "Technical Lead",
+        designation: "Founder",
         company: "VVH Solutions",
-        image: "/Frank.png",
+        image: "/public/comments/dwdwda.jpg",
     },
     {
         testimonial:
@@ -254,21 +254,21 @@ export const testimonials = [
         name: "Gayan Perera",
         designation: "Founder",
         company: "Unique Software Solutions",
-        image: "/dulanga.png",
+        image: "/public/comments/ededdad.png",
     },
     {
         testimonial:
-            "I'm delighted to recommend Vinnath for his dedication and passion in software engineering. Throughout his studies, he has demonstrated a strong commitment to learning and excelling in the field. His dedication to mastering software engineering concepts and his enthusiasm for problem-solving make him a valuable asset to any team. I am confident that Arunalu will continue to thrive and contribute positively to any organization he joins",
+            "I'm delighted to recommend Vinnath for his dedication and passion in software engineering. Throughout his studies, he has demonstrated a strong commitment to learning and excelling in the field. His dedication to mastering software engineering concepts and his enthusiasm for problem-solving make him a valuable asset to any team.",
         name: "Mrs. Chamila Attanayaka",
         designation: "Lecturer",
         company: "International College of Business and Technology (ICBT) ",
-        image: "/hasindu.png",
+        image: "/public/comments/cwdwdwdwdwdwdg.jpg",
     },
 ];
 
 export const projects = [
     {
-        name: "Hospital Management System",
+        name: "1",
         description:
             "Introducing Solution, your comprehensive web portal designed exclusively for healthcare professionals and billers. Our innovative platform is meticulously crafted to streamline and automate the claims process, ensuring that healthcare providers receive maximum payments from insurance companies.",
         tags: [
@@ -285,11 +285,11 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/innobot.jpg",
+        image: "/public/project/111qqqq.png",
         source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
     },
     {
-        name: "Whether Appilication",
+        name: "2",
         description:
             "Web application that provides weather information of any city in the world.",
         tags: [
@@ -306,13 +306,13 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/whether.jpg",
+        image: "/public/project/sqsss.png",
         source_code_link: "https://github.com/ArunaluB/Weather_application.git/",
         live_link: "https://arunalub.github.io/Weather_application/",
 
     },
     {
-        name: "Car Out Game",
+        name: "3",
         description:
             " I used Kotlin to develop this fun where you can drive a car and avoid obstacles. Plus, I incorporated Shared Preferences for data storage, making the user experience seamless and personalized.",
         tags: [
@@ -342,7 +342,7 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/mos buger.jpg",
+        image: "/public/project/sSsSs.png",
         source_code_link: "https://github.com/ArunaluB/E-commerce-website.git/",
     },
     {
