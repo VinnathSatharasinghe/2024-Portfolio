@@ -216,10 +216,11 @@ export const education = [
         iconBg: "#383E56",
         date: "Jul  2022 - Jul 2023",
         points: [
-            "Assisted in developing and customizing WordPress websites by utilizing themes and plugins to meet specific client requirements.",
-            "Gained hands-on experience in installing, configuring, and managing WordPress themes and plugins, ensuring they are up-to-date and compatible with the website.",
-            "Implemented responsive design techniques to ensure websites were optimized for various devices, enhancing user experience across desktops, tablets, and mobile devices.",
-            "Worked closely with clients to understand their needs and provided support in maintaining and updating their WordPress websites.",
+            "Developed a strong understanding of creating and managing RESTful APIs, enabling seamless communication between client and server applications. Focused on best practices in API design, security, and documentation.",
+            "Gained insights into AI principles, including machine learning, natural language processing, and intelligent systems. Explored AI's impact on automation, data analysis, and problem-solving across various industries.",
+            " Studied BI systems for extracting meaningful insights from data. Learned about data warehousing, reporting, and visualization techniques to support strategic decision-making in businesses.",
+            " Delved into deep learning, understanding neural networks, and their application in tasks like image and speech recognition. Worked with frameworks like TensorFlow to build and train deep learning models.",
+            "Explored various ML algorithms, including supervised, unsupervised, and reinforcement learning. Gained practical experience in developing and evaluating models for predictive analytics and data-driven applications.",
         ],
     },
     {
@@ -229,11 +230,12 @@ export const education = [
         iconBg: "#E6DEDD",
         date: "Mar 2020 - Jul 2022",
         points: [
-            " Assisted in building and maintaining the front-end of web applications using HTML, CSS, and JavaScript, ensuring responsive and user-friendly interfaces.",
-            "Utilized CSS frameworks like Bootstrap or Tailwind to streamline the development process and ensure responsive layouts across different devices.",
-            " Developed interactive features and dynamic elements using JavaScript and jQuery, enhancing the overall user experience on the website.",
-            "Developed and maintained reusable React components, ensuring modularity and consistency across the web application.",
-            "Gained experience using version control systems like Git to manage code changes, collaborate with team members, and maintain code integrity.",
+            " Acquired proficiency in Java programming, including object-oriented principles, data structures, and application development. Focused on creating robust, scalable software solutions.",
+            "Studied BI tools and techniques for analyzing data and generating actionable insights. Covered aspects of data warehousing, reporting, and visualization.",
+            "Gained skills in C++ programming, including memory management, object-oriented design, and advanced language features for developing high-performance applications.",
+            " Learned C# programming with a focus on .NET framework for developing Windows applications, web services, and enterprise solutions.",
+            "Developed expertise in front-end and back-end web development. Worked with HTML, CSS, JavaScript, and web frameworks to build interactive and responsive websites.",
+            "Gained knowledge in designing and implementing server-side systems. Covered topics like server architecture, API development, and database management.",
         ],
     },
 
@@ -273,20 +275,20 @@ export const projects = [
             "Explore a showcase of my work, skills, and achievements as a web developer. This portfolio highlights my journey, projects, and experiences in web development, particularly focusing on my proficiency in React.js, HTML, and CSS",
         tags: [
             {
-                name: "reactjs",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Taliwing CSS",
                 color: "green-text-gradient",
             },
             {
-                name: "Sprinboot",
+                name: "Node",
                 color: "pink-text-gradient",
             },
         ],
         image: "/public/project/111qqqq.png",
-        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+        source_code_link: "https://github.com/VinnathSatharasinghe/2024-Portfolio",
     },
     {
         name: "Winny Book Store",
@@ -294,21 +296,22 @@ export const projects = [
             "Explore Winny Book Store, an online haven for book enthusiasts. Our platform offers a vast collection of books, spanning multiple genres and interests. Built with React.js, HTML, SCSS, and CSS on the frontend, and powered by a robust backend API and MongoDB database, this website provides a seamless and interactive experience. ",
         tags: [
             {
-                name: "vanilla js",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "css",
-                color: "green-text-gradient",
-            },
-            {
-                name: "HTML",
+                name: "CSS | SCSS",
                 color: "pink-text-gradient",
             },
+            {
+                name: "MongoDB",
+                color: "green-text-gradient",
+            },
+          
         ],
         image: "/public/project/sqsss.png",
-        source_code_link: "https://github.com/ArunaluB/Weather_application.git/",
-        live_link: "https://arunalub.github.io/Weather_application/",
+        source_code_link: "https://github.com/VinnathSatharasinghe/Book-Store-MERN",
+        live_link: "",
 
     },
     {
@@ -317,12 +320,20 @@ export const projects = [
             "This web application features a user-friendly interface built with React.js, HTML, SCSS, and CSS, allowing you to add, edit, and manage tasks with ease. On the backend, a robust API and MongoDB database ensure that your tasks are stored securely and are easily accessible whenever you need them.",
         tags: [
             {
-                name: "Kotlin",
+                name: "React",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "CSS | SCSS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "MongoDB",
+                color: "green-text-gradient",
             },
         ],
         image: "/public/project/dwdwdawdaw.png",
-        source_code_link: "https://github.com/ArunaluB/Kotlin_Mobile_LabExam03.git/",
+        source_code_link: "https://github.com/VinnathSatharasinghe/Web-Todo-System-MERN",
     },
     {
         name: "Biz Software Solutions",
@@ -343,7 +354,7 @@ export const projects = [
             },
         ],
         image: "/public/project/sSsSs.png",
-        source_code_link: "https://github.com/ArunaluB/E-commerce-website.git/",
+        source_code_link: "https://github.com/VinnathSatharasinghe/Biz-Creative-Web",
     },
     {
         name: "Laptop Price Prediction System",
@@ -364,7 +375,7 @@ export const projects = [
             },
         ],
         image: "/public/project/efeefeafef.png",
-        source_code_link: "https://github.com/ArunaluB/PosSystem-Application.git/",
+        source_code_link: "https://github.com/VinnathSatharasinghe/PC_-Price-Predictor-HTML",
     },
     {
         name: "Café Winny",
@@ -385,14 +396,14 @@ export const projects = [
             },
         ],
         image: "/public/project/wadawdawdawd.png",
-        source_code_link: "https://github.com/ArunaluB/PosSystem-Application.git/",
+        source_code_link: "https://github.com/VinnathSatharasinghe/Coffy_Cafe",
     },
 ];
 
 export const certificates = [
 
     {
-        name: "Hospital Management System",
+        name: "",
         description:
             "",
         tags: [
@@ -413,7 +424,7 @@ export const certificates = [
         source_code_link: "/public/certificates/'pko.png",
     },
     {
-        name: "Hospital Management System",
+        name: "",
         description:
             "",
         tags: [
@@ -431,10 +442,10 @@ export const certificates = [
             },
         ],
         image: "/public/certificates/1qq.png",
-        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+       
     },
    {
-        name: "Hospital Management System",
+        name: "",
         description:
             "",
         tags: [
@@ -452,10 +463,10 @@ export const certificates = [
             },
         ],
         image: "/public/certificates/wdwdwd.png",
-        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+       
     },
     {
-        name: "Hospital Management System",
+        name: "",
         description:
             "",
         tags: [
@@ -473,9 +484,9 @@ export const certificates = [
             },
         ],
         image: "/public/certificates/wad.png",
-        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+
     },    {
-        name: "Hospital Management System",
+        name: "",
         description:
             "",
         tags: [
@@ -493,7 +504,7 @@ export const certificates = [
             },
         ],
         image: "/public/certificates/WEB BEGI.png",
-        source_code_link: "https://github.com/DulangaMW/Innobothealth-Access-Management-System.git/",
+       
     },
 
 ];
