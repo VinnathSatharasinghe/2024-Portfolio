@@ -89,7 +89,7 @@ const HeroContent = () => {
                 className="w-full h-full flex justify-center items-center mt-6 md:mt-0"
             >
                 <img
-                    src="/public/vinnath.png"
+                    src="/vinnath.png"
                     alt="me"
                     className=" max-w-full h-auto rounded-[20px] mt-[50px] neon-border"
 
