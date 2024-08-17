@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         <a href="#about-me" className="flex items-center">
           <img
-            src="/public/me/dwdddwdwad.png"
+            src="/public/vinnath.png"
             alt="logo"
             width={45}
             height={45}
