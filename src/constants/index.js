@@ -181,7 +181,7 @@ export const experiences = [
     {
         title: "Trainee WordPress Developer ",
         company_name: "VVH Solutions",
-        icon: "/public/other/wdadwad.jpg",
+        icon: "/wdadwad.jpg",
         iconBg: "#383E56",
         date: "May 2024 - Jul 2024",
         points: [
@@ -194,7 +194,7 @@ export const experiences = [
     {
         title: "Intern Web Developer - Frontend",
         company_name: "Unique Software Solutions",
-        icon: "/public/other/qsQSWDAD.png",
+        icon: "/qsQSWDAD.png",
         iconBg: "#E6DEDD",
         date: "Jan 2024 - Mar 2024",
         points: [
@@ -212,7 +212,7 @@ export const education = [
     {
         title: "BSc (Hons) Software Engineering",
         company_name: "Cardiff Metropolitan University",
-        icon: "/public/other/edfadawdawd.jpg",
+        icon: "/edfadawdawd.jpg",
         iconBg: "#383E56",
         date: "Jul  2022 - Jul 2023",
         points: [
@@ -226,7 +226,7 @@ export const education = [
     {
         title: "HD in Software Engineering",
         company_name: "International College of Business and Technology.",
-        icon: "/public/other/dawdawdaw.jpg",
+        icon: "/dawdawdaw.jpg",
         iconBg: "#E6DEDD",
         date: "Mar 2020 - Jul 2022",
         points: [
@@ -248,7 +248,7 @@ export const testimonials = [
         name: "Mr.Vishan Vindula",
         designation: "Founder",
         company: "VVH Solutions",
-        image: "/public/comments/dwdwda.jpg",
+        image: "/dwdwda.jpg",
     },
     {
         testimonial:
@@ -256,7 +256,7 @@ export const testimonials = [
         name: "Gayan Perera",
         designation: "Founder",
         company: "Unique Software Solutions",
-        image: "/public/comments/ededdad.png",
+        image: "/ededdad.png",
     },
     {
         testimonial:
@@ -264,7 +264,7 @@ export const testimonials = [
         name: "Mrs. Chamila Attanayaka",
         designation: "Lecturer",
         company: "International College of Business and Technology (ICBT) ",
-        image: "/public/comments/cwdwdwdwdwdwdg.jpg",
+        image: "/cwdwdwdwdwdwdg.jpg",
     },
 ];
 
