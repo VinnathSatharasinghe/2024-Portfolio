@@ -287,7 +287,7 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/project/111qqqq.png",
+        image: "/111qqqq.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/2024-Portfolio",
     },
     {
@@ -309,7 +309,7 @@ export const projects = [
             },
           
         ],
-        image: "/public/project/sqsss.png",
+        image: "/sqsss.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Book-Store-MERN",
         live_link: "",
 
@@ -332,7 +332,7 @@ export const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: "/public/project/dwdwdawdaw.png",
+        image: "/dwdwdawdaw.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Web-Todo-System-MERN",
     },
     {
@@ -353,7 +353,7 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/project/sSsSs.png",
+        image: "/sSsSs.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Biz-Creative-Web",
     },
     {
@@ -374,7 +374,7 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/project/efeefeafef.png",
+        image: "/efeefeafef.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/PC_-Price-Predictor-HTML",
     },
     {
@@ -395,7 +395,7 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/project/wadawdawdawd.png",
+        image: "/wadawdawdawd.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Coffy_Cafe",
     },
 ];
@@ -420,7 +420,7 @@ export const certificates = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/certificates/'pko.png",
+        image: "/'pko.png",
         source_code_link: "/public/certificates/'pko.png",
     },
     {
@@ -441,7 +441,7 @@ export const certificates = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/certificates/1qq.png",
+        image: "/1qq.png",
        
     },
    {
@@ -462,7 +462,7 @@ export const certificates = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/certificates/wdwdwd.png",
+        image: "/wdwdwd.png",
        
     },
     {
@@ -483,7 +483,7 @@ export const certificates = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/certificates/wad.png",
+        image: "/wad.png",
 
     },    {
         name: "",
@@ -503,7 +503,7 @@ export const certificates = [
                 color: "pink-text-gradient",
             },
         ],
-        image: "/public/certificates/WEB BEGI.png",
+        image: "/WEB BEGI.png",
        
     },
 
