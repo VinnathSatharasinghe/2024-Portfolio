@@ -289,6 +289,7 @@ export const projects = [
         ],
         image: "/111qqqq.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/2024-Portfolio",
+        live_link: "https://2024-portfolio-pied.vercel.app/",
     },
     {
         name: "Winny Book Store",
@@ -334,6 +335,7 @@ export const projects = [
         ],
         image: "/dwdwdawdaw.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Web-Todo-System-MERN",
+        live_link: "",
     },
     {
         name: "Biz Software Solutions",
@@ -355,6 +357,7 @@ export const projects = [
         ],
         image: "/sSsSs.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Biz-Creative-Web",
+        live_link: "",
     },
     {
         name: "Laptop Price Prediction System",
@@ -376,6 +379,7 @@ export const projects = [
         ],
         image: "/efeefeafef.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/PC_-Price-Predictor-HTML",
+        live_link: "",
     },
     {
         name: "Café Winny",
@@ -397,6 +401,7 @@ export const projects = [
         ],
         image: "/wadawdawdawd.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Coffy_Cafe",
+        live_link: "",
     },
 ];
 
