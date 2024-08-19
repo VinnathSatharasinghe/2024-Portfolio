@@ -312,7 +312,7 @@ export const projects = [
         ],
         image: "/sqsss.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Book-Store-MERN",
-        live_link: "",
+        live_link: "https://book-store-mern-rho.vercel.app/",
 
     },
     {
@@ -357,7 +357,7 @@ export const projects = [
         ],
         image: "/sSsSs.png",
         source_code_link: "https://github.com/VinnathSatharasinghe/Biz-Creative-Web",
-        live_link: "",
+        live_link: "https://biz24.netlify.app",
     },
     {
         name: "Laptop Price Prediction System",
